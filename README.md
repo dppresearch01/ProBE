@@ -19,11 +19,11 @@ $ pip install -r requirements.txt
 ## Running Instructions
 1. To run ProBE, run the following command in the directory:
 ```bash
-$ probeMain [algorithm] [dataset] [u=<value>] [b=<value>] [m=<value>] [f=<value>] [e=<value>] [t=<value>]
+$ probeMain algorithm [dataset] [u=<value>] [b=<value>] [m=<value>] [f=<value>] [e=<value>] [t=<value>]
 ```
 where options in brackets [] are optional. The options are explained below:
 
-* [algorithm] options are *tslm* (Threshold Shift Laplace Mechanism), *ppwlm* (Progressive Predicate-wise Laplace Mechanism) and *ddpwlm* (Data Dependent Predicate-wise Laplace Mechanism). **The default option is tslm.**
+* [algorithm] options are *tslm* (Threshold Shift Laplace Mechanism), *ppwlm* (Progressive Predicate-wise Laplace Mechanism) and *ddpwlm* (Data Dependent Predicate-wise Laplace Mechanism).
 * [dataset] options are *sales* and *taxi*. **The default option is sales.**
 * [u=\<value\>] (no spaces) provides a value for the uncertain region u. u has to be a percentage of the data range (e.g. u=10 corresponds to 10%). **The default value is 12%.**
 * [b=\<value\>] (no spaces) provides a value for the false negative rate bound beta. **The default value is 0.005.**
