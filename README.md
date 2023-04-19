@@ -37,13 +37,13 @@ Below are examples of commands to run using specific parameters:
 ```bash
 $ python3 probeMain tslm u=14 b=0.008
 ```
-* ProBE PPWLM with the number of steps m=3 and starting epsilon of e=0.0001, with 4 sub-queries
+* ProBE MSPWLM with the number of steps m=3 and starting epsilon of e=0.0001, with 4 sub-queries
 ```bash
 $ python3 probeMain ppwlm m=3 e=0.0001 n=4
 ```
-* ProBE DDPWLM with the number of fine-grained steps f=2, starting epsilon of e=0.1, and a combination of disjunction/conjunction query, with 5 sub-queries
+* ProBE Data-Dependent MSPWLM with the number of fine-grained steps f=2, starting epsilon of e=0.1, and a combination of disjunction/conjunction query, with 5 sub-queries
 ```bash
 $ python3 probeMain ddpwlm f=2 e=0.1 t=2 n=5
 ```
 
-***NOTE:*** *Queries are pre-defined and included in the */queries* directory, and may be modified, but must comply with the definition of complex decision support queries as defined in the paper.*
+***NOTE:*** *Queries are pre-defined and included in the *queries/* directory, and may be modified, but must comply with the definition of complex decision support queries as defined in the paper.*
